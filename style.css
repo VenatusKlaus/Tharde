@@ -1,0 +1,176 @@
+*{
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+body{
+    position: relative;
+    display: grid;
+    
+    grid-template-columns: 1fr;
+    font-size: Arial, sans-serif;
+    background-color: black;
+    color: white;
+    gap: 4px;
+    padding: 20px;
+   
+
+}
+nav{
+    display: flex;
+    
+}
+.navbar{
+    
+    gap: 3em;
+    justify-content: space-between;
+    align-items: center;
+    font-size: small;
+    background-color:rgb(21, 67, 98) ;
+    border-radius: 10px;
+    padding: 15px 20px;
+    margin-left: 60PX;
+}
+.navlinks{
+    margin-left: 20em;
+    display: flex;
+    list-style: none;
+    gap: 9em;
+
+}
+.navlinks li a{
+    text-decoration: none;
+    color: white;
+}
+.connect-wallet{
+    border: 1px none;
+    
+    border-radius: 30px;
+    font-size: smaller;
+    color: white;
+    padding: 5px 5px;
+    background-color: rgb(12, 79, 127);
+       
+}
+.logo{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+}
+.create{
+    position: relative;
+    display: grid;
+    align-items: center;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgb(21, 67, 98);
+  margin-left: 60px;
+
+    
+    
+   
+
+}
+.create h1{
+    
+    font-size:60px ;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    
+}
+
+.startnow{
+    position: relative;
+    
+    background-color: rgb(48, 198, 18);
+    color: black;
+    border: none;
+    padding: 15px 20px;
+    border-radius: 30px;
+    font-size: small; 
+    bottom:20px ;
+    width: 120px;
+
+}
+
+.lower{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5px;
+    margin-left: 60PX;
+}
+.down1{
+   
+    display: grid;
+    background-color:rgb(21, 67, 98);
+    padding: 50px;
+    justify-content: center;
+    border-radius: 10px 10px 0px 0px;
+    
+    color: white;
+
+}
+.middle{
+   
+    display: grid;
+    padding: 80px;
+    background-color: rgb(203, 215, 39) ;
+    border-radius: 10px 10px 0px 0px;
+   
+}
+.end{
+   
+    display: grid;
+    background-color: rgb(144, 201, 196);
+    padding: 80px;
+    border-radius: 10px 10px 0px 0px;
+   align-items: flex-start;
+    color: black;
+    
+}
+
+button{
+    background-color: rgb(21, 67, 98);
+    border: 1px solid white;
+    border-radius: 30px;
+    color: white;
+    padding: 5px;
+    
+}
+.side{
+    position: absolute;
+    background-color: rgb(21, 67, 98);
+    display: flex;
+    flex-direction: row;
+    border-radius: 10px 10px 0px 0px;
+    width: 65px;
+    height: 95.3vh;
+    top: 20px;
+    left: 10px;
+    
+
+}
+.black{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: black;
+}
+.unique{
+    display: flex;
+    gap: 20px;
+    
+}
+.eth{
+    position: relative;
+    background-color:  rgb(48, 198, 18);
+    border-radius: 20px;
+    padding:  5px 5px;
+    width: 130px;
+    left: 800px;
+    bottom: 50px;
+    color: black;
+}
+.img{
+    display: flex ;
+    gap: 4px;
+}
